@@ -2,7 +2,10 @@ header{
     padding: 10px 0;
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    width: 95%;
+    margin: auto;
 }
 header .navbar{
     display: flex;
