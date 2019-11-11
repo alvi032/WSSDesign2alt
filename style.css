@@ -15,6 +15,8 @@ body{
 #home-intro{
     text-align: center;
     padding-top: 140px;
+    display: block;
+    position: relative;
 }
 #home-intro:after{
     content: "";
@@ -40,6 +42,7 @@ body{
     align-items: flex-start;
     margin: auto;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 .package-button{
     display: flex;
@@ -71,4 +74,9 @@ body{
 .package-button img{
     height: 54px;
     padding-right: 20px;
+}
+.scroll{
+
+    text-decoration: none;
+    color: var(--clr1)
 }
