@@ -1,0 +1,35 @@
+:root{
+    --clr1: #005396;
+    --clr2: #2cc0d3;
+    --clr3: #f3f3f3;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.regular-17{
+    font-size: 17px;
+}
+.medium-17{
+    font-size: 17px;
+    font-weight: 500;
+}
+.regular-25{
+    font-size: 25px;
+}
+.medium-25{
+    font-size: 25px;
+    font-weight: 500;
+}
+.bold-25{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.regular-50{
+    font-size: 50px;
+}
+.bold-italic-72{
+    font-size: 72px;
+    font-weight: 700;
+    font-style: italic;
+}

@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.container-full{
+    max-width: 1685px;
+    margin: auto;
+}
+#home-intro{
+    text-align: center;
+    padding-top: 140px;
+}
+#home-intro:after{
+    content: "";
+    background-image: url("images/background/homepage-bg.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+#home-intro p{
+    color: var(--clr1)
+}
+#home-packages{
+    display: flex;
+    max-width: 870px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 60px;
+}
+.package-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 406px;
+    margin: 0 20px;
+}
+.package-button-link {
+    background-color: var(--clr1);
+    width: 100%;
+    border-radius: 20px;
+}
+.package-button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.package-button a p{
+    color: white !important;
+    font-size: 25px;
+    margin: 0;
+}
+.package-button img{
+    height: 54px;
+    padding-right: 20px;
+}
