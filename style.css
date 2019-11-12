@@ -145,7 +145,7 @@ body{
 #how-it-works .bold-1rem{
     margin-bottom: 0;
 }
-#how-it-works:after {
+/*#how-it-works:after {
     content: '';
     display: block;
     position: absolute;
@@ -154,7 +154,7 @@ body{
     left: 25%;
     border-bottom: 2px solid var(--clr2);
 
-}
+}*/
 
 #intro-video{
     /*background: rgb(255,255,255);*/
