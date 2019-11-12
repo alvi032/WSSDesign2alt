@@ -6,15 +6,46 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.medium-14{
+    font-size: 14px;
+    font-weight: 500;
+}
+.medium-075rem{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
 .regular-17{
     font-size: 17px;
+}
+.regular-16{
+    font-size: 16px;
+}
+.regular-2rem{
+    font-size: 2rem;
 }
 .medium-17{
     font-size: 17px;
     font-weight: 500;
 }
+.regular-18{
+    font-size: 18px;
+}
+.medium-18{
+    font-size: 18px;
+    font-weight: 500;
+}
+.medium-1rem{
+    font-size: 1rem;
+    font-weight: 500;
+}
 .regular-25{
     font-size: 25px;
+}
+.regular-24{
+    font-size: 24px;
+}
+.regular-32{
+    font-size: 32px;
 }
 .medium-25{
     font-size: 25px;
@@ -24,7 +55,20 @@ body{
     font-size: 25px;
     font-weight: 700;
 }
-
+.medium-48{
+    font-size: 48px;
+    font-weight: 500;
+}
+.bold-italic-48{
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+}
+.bold-italic-3rem{
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: italic;
+}
 .regular-50{
     font-size: 50px;
 }
