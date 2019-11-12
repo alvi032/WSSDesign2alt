@@ -20,6 +20,12 @@ body{
 .regular-16{
     font-size: 16px;
 }
+.regular-1rem{
+    font-size: 1rem;
+}.bold-1rem{
+    font-size: 1rem;
+    font-weight: 700;
+ }
 .regular-2rem{
     font-size: 2rem;
 }
@@ -58,6 +64,10 @@ body{
 .medium-48{
     font-size: 48px;
     font-weight: 500;
+}
+.bold-2rem{
+    font-size: 2rem;
+    font-weight: 700;
 }
 .bold-italic-48{
     font-size: 48px;

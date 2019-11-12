@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-<header>
-    <div class="navbar container-full">
-        <img src="images/websitelogo.png" alt="">
+<header id="myNav">
+    <div class="container-full" id="navbar">
+        <img  id="logo" src="images/websitelogo.png" alt="">
         <ul>
             <li><a href="#">Services</a></li>
             <li><a href="#">Questionnaire</a></li>
@@ -30,7 +31,8 @@
         <p class="regular-2rem">One-on-One resume review and writing service by
             <br>
             <span class="bold-italic-3rem">Investment Banking Professionals</span></p>
-        <p class="medium-1rem para">Wall Street Shortcut is a one of a kind company that helps you create and perfect a resume
+        <p class="medium-1rem para">Wall Street Shortcut is a one of a kind company that helps you create and perfect a
+            resume
             <br>
             tailored towards Investment Banking and buy-side recruiting. We provide a hands-on review service <br>
             to help young Professionals stand-out to recruiters and large firms to attain interviews.
@@ -47,7 +49,8 @@
                         <p class="regular-1rem">INVESTMENT BANKING<br>RECRUITING PACKAGE</p>
                     </a>
                 </div>
-                <p class="medium-075rem">For university students looking to break into the industry or Junior professionals
+                <p class="medium-075rem">For university students looking to break into the industry or Junior
+                    professionals
                     looking to lateral into front-office positions</p>
             </div>
             <div class="package-button">
@@ -57,15 +60,68 @@
                         <p class="regular-1rem">BUY-SIDE RECRUITING<br>PACKAGE</p>
                     </a>
                 </div>
-                <p class="medium-075rem">For current financial professionals looking to break into the Hedge-Fund, Private
+                <p class="medium-075rem">For current financial professionals looking to break into the Hedge-Fund,
+                    Private
                     Equity, and Venture Capital space</p>
             </div>
         </div>
 
     </div>
     <a href="#" class="scroll medium-17">↓ SCROLL ↓</a>
-
-
 </section>
+<section id="how-it-works">
+    <div class="container-full">
+        <p class="bold-2rem how-it-works-heading">How It Works</p>
+        <ul>
+            <li>
+                <div>
+                    <img src="images/package.png" alt="Pick a resume package">
+                    <p class="bold-1rem">Pick a resume package</p>
+                    <p class="regular-1rem">Select the resume review package that best aligns with your recruiting
+                        profile</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/questionnaire.png" alt="Pick a resume package">
+                    <p class="bold-1rem">Fill Out Questionnaire</p>
+                    <p class="regular-1rem">Select the resume review package that best aligns with your recruiting
+                        profile</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/graduation%20cap.png" alt="Pick a resume package">
+                    <p class="bold-1rem">Match with a Reviewer</p>
+                    <p class="regular-1rem">Select the resume review package that best aligns with your recruiting
+                        profile</p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <img src="images/email.png" alt="Pick a resume package">
+                    <p class="bold-1rem">Engage & start reviewing</p>
+                    <p class="regular-1rem">Select the resume review package that best aligns with your recruiting
+                        profile</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="intro-video">
+    <div class="laptop-div">
+        <img src="images/laptop%202.png" alt="">
+        <div class="video-div">
+            <iframe class="intro-video-link container" src="https://www.youtube.com/embed/7KLvP3r2eGU?controls=0"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+        </div>
+
+
+    </div>
+    <a href="#" class="bold-1rem">Get Started</a>
+</section>
+
+<script src="main.js"></script>
 </body>
 </html>

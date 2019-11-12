@@ -4,15 +4,22 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    width: 95%;
+    width: 100%;
     margin: auto;
+    z-index: 1;
+    transition: 200ms ease-out;
 }
-header .navbar{
+header *{
+    transition: 200ms ease-out;
+}
+header #navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1685px;
+    width: 95%;
 }
-header img{
+#logo{
     height: 70px;
 }
 header ul{
@@ -33,4 +40,13 @@ header ul li:last-child a{
     background-color: var(--clr1);
     border: 0 transparent;
     border-radius: 15px;
+}
+.nav-colored{
+    background-color: white;
+    -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
+}
+.nav-transparent{
+    background-color: transparent;
 }
