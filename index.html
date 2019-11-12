@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slider-styling.css">
+    <link rel="stylesheet" href="slick-theme.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
@@ -121,7 +124,101 @@
     </div>
     <a href="#" class="bold-1rem">Get Started</a>
 </section>
+<section id="experts">
+    <div id="resume-review-experts">
+        <div class="container">
+            <p class="bold-2rem resume-review-experts-heading">Resume Review Experts</p>
+            <div class="slick-slider-view">
+                <div class="expert-card">
+                    <p class="bold-1rem expert-name">Alpha</p>
+                    <p class="regular-1rem expert-intro">Co-Founder, Wall Street
+                        Shortcut. Previously
+                        Healthcare Investment
+                        Banking Associate at J.P.
+                        Morgan Chase. Also
+                        completed one-year within<br>...</p>
+                    <a href="#" class="bold-1rem">View</a>
+                </div>
+                <div class="expert-card">
+                    <p class="bold-1rem expert-name">Gamma</p>
+                    <p class="regular-1rem expert-intro">Co-Founder, Wall Street
+                        Shortcut. Previously analyst
+                        long/short tiger cub hedge-
+                        fund and M&A generalist at
+                        Perella Weinberg Partners.
+                        Graduated in 2013 from the<br>
+                        ...</p>
+                    <a href="#" class="bold-1rem">View</a>
+                </div>
+                <div class="expert-card">
+                    <p class="bold-1rem expert-name">Beta</p>
+                    <p class="regular-1rem expert-intro">Private Equity Senior Associate at Blackstone. Previously Investment
+                        Banking Analyst at boutique M&A-focused Investment Bank.</p>
+                    <a href="#" class="bold-1rem expert-link">View</a>
+                </div>
+                <div class="expert-card">
+                    <p class="bold-1rem expert-name">Omega</p>
+                    <p class="regular-1rem expert-intro">Analyst distressed debt and special situations trading at Barclays
+                        Investment Bank. Previously equity research analyst at Barclays.</p>
+                    <a href="#" class="bold-1rem expert-link">View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="clients">
+    <div class="container">
+        <p class="bold-2rem clients-heading">OUR TEAM OF RESUME REVIEWERS HAVE WORKED FOR</p>
+        <div class="client-icons">
+            <img src="images/clients/barclays.png" alt="Barclays">
+            <img src="images/clients/blackstone.png" alt="BlackStone">
+            <img src="images/clients/jp%20morgan.png" alt="JP Morgan">
+            <img src="images/clients/perella%20weinberg.png" alt="PWP">
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="upper-footer">
+        <div class="container">
+            <div class="icon-and-address">
+                <img src="images/wall%20street%20shortcut%20white.png" alt="Wall Street Shortcut" class="footer-logo">
+                <p class="regular-17">1-888-6-Resume<br>
+                    info@resume.com<br>
+                    PO Box 123456<br>
+                    Columbia, SC 123456</p>
+            </div>
+            <div class="footer-links">
+                <ul class="quicklinks">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Get Hired</a></li>
+                </ul>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="lower-footer">
+        <div class="container">
+            <p><span class="bold-17">© 2019 Wall Street Shortcut. </span><span class="regular-17">All Rights Reserved</span></p>
 
+        </div>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/d73f645a4a.js"></script>
 <script src="main.js"></script>
+<script src="slick.js"></script>
+<script>
+    $(".slick-slider-view").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1
+    });
+</script>
 </body>
 </html>
