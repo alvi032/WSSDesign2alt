@@ -7,7 +7,7 @@ header{
     right: 0;
     width: 100%;
     margin: auto;
-    z-index: 1;
+    z-index: 2;
     transition: 200ms ease-out;
 }
 header *{
@@ -35,7 +35,7 @@ header #navbar{
 #nav-ul li{
     position: relative;
 }
-#nav-ul li::after {
+#nav-ul li:not(:last-child)::after{
     content: '';
     position: absolute;
     width: 100%;
@@ -49,6 +49,10 @@ header #navbar{
 #nav-ul li:hover::after{
     transform: scaleX(1);
 }
+#nav-ul li:last-child:hover{
+    transform: scale(1.02);
+
+}
 #nav-ul li a{
     text-decoration: none;
     color: var(--clr1);
@@ -59,6 +63,9 @@ header #navbar{
     background-color: var(--clr1);
     border: 0 transparent;
     border-radius: 15px;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
 }
 .nav-colored{
     background-color: white;
@@ -94,6 +101,7 @@ header #navbar{
     padding: 1rem 0;
     display: flex;
 }
+
 #mobile-nav-ul img{
     height: 1rem;
     padding-right: 1rem;
@@ -219,6 +227,9 @@ header #navbar{
         -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
         -moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
         box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
+    }
+    #mobile-nav-ul a:focus{
+        outline: none
     }
     #hamburger-icon{
         display: unset;
