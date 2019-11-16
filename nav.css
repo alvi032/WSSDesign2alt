@@ -18,8 +18,6 @@ header #navbar{
     justify-content: space-between;
     align-items: center;
     max-width: 1685px;
-    background-color: white;
-
 
 }
 #logo{
@@ -34,9 +32,26 @@ header #navbar{
     width: 100%;
     justify-content: space-between;
 }
+#nav-ul li{
+    position: relative;
+}
+#nav-ul li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--clr1);
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: all 0.5s;
+}
+#nav-ul li:hover::after{
+    transform: scaleX(1);
+}
 #nav-ul li a{
     text-decoration: none;
-    color: var(--clr1)
+    color: var(--clr1);
 }
 #nav-ul li:last-child a{
     color: white;
@@ -242,17 +257,27 @@ header #navbar{
     header{
         background-color: white;
     }
+    #navbar{
+        background-color: white;
+        -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
+        box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
+    }
     #nav-ul{
         display: none;
     }
     #mobile-nav-ul{
         display: flex;
+        -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
+        box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.1);
     }
     #hamburger-icon{
         display: unset;
     }
+
 }
-@media(max-width: 425px){
+@media(max-width: 500px){
     #logo{
         height: 50px;
     }

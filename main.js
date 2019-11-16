@@ -8,7 +8,7 @@ window.onscroll = function () {
         myNav.classList.add("nav-colored")
         myNav.classList.remove("nav-transparent");
     }
-    else if(window.screen.width > 425){
+    else if(window.screen.width > 500){
         logo.style.height = '70px'
         myNav.classList.add("nav-transparent");
         myNav.classList.remove("nav-colored");
