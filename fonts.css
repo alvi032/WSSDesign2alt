@@ -22,15 +22,24 @@ body{
 }
 .regular-1rem{
     font-size: 1rem;
-}.bold-1rem{
+}
+.bold-1rem{
     font-size: 1rem;
     font-weight: 700;
- }
+}
+.semi-bold-1rem{
+    font-size: 1rem;
+    font-weight: 600;
+}
 .regular-2rem{
     font-size: 2rem;
 }
 .medium-17{
     font-size: 17px;
+    font-weight: 500;
+}
+.medium-1\.5rem{
+    font-size: 1.5rem;
     font-weight: 500;
 }
 .regular-18{

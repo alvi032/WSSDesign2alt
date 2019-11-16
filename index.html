@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="slick.css">
     <link rel="stylesheet" href="slider-styling.css">
     <link rel="stylesheet" href="slick-theme.css">
@@ -55,8 +56,8 @@
             <span class="bold-italic-3rem">Investment Banking Professionals</span></p>
         <p class="medium-1rem para">Wall Street Shortcut is a one of a kind company that helps you create and perfect a
             resume
-            <br>
-            tailored towards Investment Banking and buy-side recruiting. We provide a hands-on review service <br>
+            <br class="break-line">
+            tailored towards Investment Banking and buy-side recruiting. We provide a hands-on review service <br class="break-line">
             to help young Professionals stand-out to recruiters and large firms to attain interviews.
             <br>
             <br>
@@ -93,12 +94,12 @@
 </section>
 <section id="how-it-works">
     <div class="container-full">
-        <p class="bold-2rem how-it-works-heading">How It Works</p>
+        <p class="medium-1.5rem how-it-works-heading">How It Works</p>
         <ul>
             <li>
                 <div>
                     <img src="images/package.png" alt="Pick a resume package">
-                    <p class="bold-1rem">Pick a resume package</p>
+                    <p class="semi-bold-1rem">Pick a resume package</p>
                     <p class="regular-1rem">Select the resume review package that best aligns with your recruiting
                         profile</p>
                 </div>
@@ -106,7 +107,7 @@
             <li>
                 <div>
                     <img src="images/questionnaire.png" alt="Pick a resume package">
-                    <p class="bold-1rem">Fill Out Questionnaire</p>
+                    <p class="semi-bold-1rem">Fill Out Questionnaire</p>
                     <p class="regular-1rem">Select the resume review package that best aligns with your recruiting
                         profile</p>
                 </div>
@@ -114,7 +115,7 @@
             <li>
                 <div>
                     <img src="images/graduation%20cap.png" alt="Pick a resume package">
-                    <p class="bold-1rem">Match with a Reviewer</p>
+                    <p class="semi-bold-1rem">Match with a Reviewer</p>
                     <p class="regular-1rem">Select the resume review package that best aligns with your recruiting
                         profile</p>
                 </div>
@@ -122,7 +123,7 @@
             <li>
                 <div>
                     <img src="images/email.png" alt="Pick a resume package">
-                    <p class="bold-1rem">Engage & start reviewing</p>
+                    <p class="semi-bold-1rem">Engage & start reviewing</p>
                     <p class="regular-1rem">Select the resume review package that best aligns with your recruiting
                         profile</p>
                 </div>
@@ -141,10 +142,10 @@
 <section id="experts">
     <div id="resume-review-experts">
         <div class="container">
-            <p class="bold-2rem resume-review-experts-heading">Resume Review Experts</p>
+            <p class="medium-1.5rem resume-review-experts-heading">Resume Review Experts</p>
             <div class="slick-slider-view">
                 <div class="expert-card">
-                    <p class="bold-1rem expert-name">Alpha</p>
+                    <p class="semi-bold-1rem expert-name">Alpha</p>
                     <p class="regular-1rem expert-intro">Co-Founder, Wall Street
                         Shortcut. Previously
                         Healthcare Investment
@@ -154,7 +155,7 @@
                     <a href="#" class="bold-1rem">View</a>
                 </div>
                 <div class="expert-card">
-                    <p class="bold-1rem expert-name">Gamma</p>
+                    <p class="semi-bold-1rem expert-name">Gamma</p>
                     <p class="regular-1rem expert-intro">Co-Founder, Wall Street
                         Shortcut. Previously analyst
                         long/short tiger cub hedge-
@@ -165,13 +166,13 @@
                     <a href="#" class="bold-1rem">View</a>
                 </div>
                 <div class="expert-card">
-                    <p class="bold-1rem expert-name">Beta</p>
+                    <p class="semi-bold-1rem expert-name">Beta</p>
                     <p class="regular-1rem expert-intro">Private Equity Senior Associate at Blackstone. Previously Investment
                         Banking Analyst at boutique M&A-focused Investment Bank.</p>
                     <a href="#" class="bold-1rem expert-link">View</a>
                 </div>
                 <div class="expert-card">
-                    <p class="bold-1rem expert-name">Omega</p>
+                    <p class="semi-bold-1rem expert-name">Omega</p>
                     <p class="regular-1rem expert-intro">Analyst distressed debt and special situations trading at Barclays
                         Investment Bank. Previously equity research analyst at Barclays.</p>
                     <a href="#" class="bold-1rem expert-link">View</a>
@@ -182,7 +183,7 @@
 </section>
 <section id="clients">
     <div class="container">
-        <p class="bold-2rem clients-heading">OUR TEAM OF RESUME REVIEWERS HAVE WORKED FOR</p>
+        <p class="medium-1.5rem clients-heading">OUR TEAM OF RESUME REVIEWERS HAVE WORKED FOR</p>
         <div class="client-icons">
             <img src="images/clients/barclays.png" alt="Barclays">
             <img src="images/clients/blackstone.png" alt="BlackStone">
@@ -232,7 +233,26 @@
         dots: true,
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+                infinite: true
+            }
+        }, {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+                infinite: true
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                infinite: true
+            }
+        }]
     });
 </script>
 </body>

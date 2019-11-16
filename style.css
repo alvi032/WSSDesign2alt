@@ -96,7 +96,6 @@ body{
     background-color: #f3f3f3;
     padding: 40px 0 80px;
     position: relative;
-    z-index: -2;
 }
 .how-it-works-heading{
     text-align: center;
@@ -121,7 +120,7 @@ body{
     padding-left: 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 10px;
+    grid-gap: 10px;
     margin: auto;
 }
 #how-it-works ul li{
@@ -251,10 +250,49 @@ body{
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 .client-icons img{
     max-height: 60px;
+    place-self: center;
+}
+
+@media (max-width: 768px) {
+
+    #home-packages{
+        flex-direction: column;
+        align-items: center;
+    }
+    .break-line{
+        display: none;
+    }
+    #how-it-works ul{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .clients-heading{
+        padding-bottom: 40px;
+    }
+    .client-icons{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .first-section{
+        padding-top: 100px;
+    }
+    .first-section .regular-2rem{
+        text-align: left;
+    }
+    .para{
+        text-align: justify;
+    }
+    #how-it-works ul{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
