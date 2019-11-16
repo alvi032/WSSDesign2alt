@@ -96,6 +96,7 @@ body{
     background-color: #f3f3f3;
     padding: 40px 0 80px;
     position: relative;
+    z-index: -2;
 }
 .how-it-works-heading{
     text-align: center;
