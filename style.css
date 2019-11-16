@@ -295,13 +295,16 @@ body{
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 20px;
     }
+    #clients p{
+        text-align: center;
+    }
 }
 @media (max-width: 500px) {
     .first-section{
         padding-top: 100px;
     }
     .first-section .regular-2rem{
-        text-align: left;
+        /*text-align: left;*/
     }
     .para{
         text-align: justify;
@@ -309,6 +312,8 @@ body{
     #how-it-works ul{
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .client-icons img{
+        max-height: 40px;
+    }
 }
 
