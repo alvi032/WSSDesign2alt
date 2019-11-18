@@ -310,7 +310,10 @@ body{
     .first-section .regular-2rem{
         /*text-align: left;*/
     }
-    .bold-italic-3rem{
+    .intro-heading{
+        font-size: 1.5rem;
+    }
+    .intro-heading span{
         font-size: 2rem;
     }
     .para{
