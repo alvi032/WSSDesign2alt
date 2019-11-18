@@ -208,7 +208,8 @@ body{
 }
 .resume-review-experts-heading{
     padding-top: 68px;
-    width: max-content;
+    /*width: max-content;*/
+    text-align: center;
     margin: auto;
     padding-bottom: 60px;
     position: relative;
@@ -308,6 +309,9 @@ body{
     }
     .first-section .regular-2rem{
         /*text-align: left;*/
+    }
+    .bold-italic-3rem{
+        font-size: 2rem;
     }
     .para{
         text-align: justify;
