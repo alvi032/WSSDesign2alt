@@ -13,6 +13,9 @@ body{
     padding: 10px 2.5%;
     margin: auto;
 }
+.text-center{
+    text-align: center;
+}
 .first-section{
     padding-top: 140px;
     z-index: 1;
@@ -312,7 +315,7 @@ body{
     #how-it-works ul{
         grid-template-columns: repeat(1, 1fr);
     }
-    .client-icons img{
+    .client-icons img   {
         max-height: 40px;
     }
 }

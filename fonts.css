@@ -34,6 +34,9 @@ body{
     font-size: 1rem;
     font-weight: 600;
 }
+.regular-1\.5rem{
+    font-size: 1.5rem;
+}
 .regular-2rem{
     font-size: 2rem;
 }
