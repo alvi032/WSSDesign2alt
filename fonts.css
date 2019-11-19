@@ -1,6 +1,6 @@
 :root{
     --clr1: #005396;
-    --clr2: #2cc0d3;
+    --clr2: #af86d3;
     --clr3: #f3f3f3;
 }
 body{
@@ -28,6 +28,10 @@ body{
 }
 .bold-1rem{
     font-size: 1rem;
+    font-weight: 700;
+}
+.bold-1\.5rem{
+    font-size: 1.5rem;
     font-weight: 700;
 }
 .semi-bold-1rem{

@@ -281,7 +281,6 @@ body{
 }
 
 @media (max-width: 768px) {
-
     #home-packages{
         flex-direction: column;
         align-items: center;

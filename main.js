@@ -36,3 +36,26 @@ window.onresize = function videoResize(){
     document.getElementById("intro-video-div").style.height = introVidHeight + 'px'
 }
 
+//services dropdown div
+$(function () {
+
+    $(".services-collapsible-div > div > div:last-child").slideUp("slow");
+
+    $(".services-collapsible-div > div > div:first-child").click(function (e) {
+
+        e.preventDefault();
+
+        var $tab = $(this).parent();
+
+        var is_single = $tab.parent().hasClass("single");
+
+        $tab.toggleClass("open");
+        $tab.children(":last-child").slideToggle("slow");
+
+        if (is_single) {
+            $tab.siblings().removeClass("open");
+            $tab.siblings().children(":last-child").slideUp("slow");
+        }
+
+    });
+});

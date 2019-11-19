@@ -1,0 +1,56 @@
+#get-started-intro{
+    background-color: var(--clr2);
+    height: 500px;
+}
+.services-collapsible-div {
+    margin: 2em auto;
+    /*border: 1px solid #ccc;*/
+    /*box-shadow: 5px 5px 15px rgba(216, 216, 216, 0.5);*/
+    color: var(--clr1);
+    max-width: 800px;
+    /*margin: auto;*/
+}
+
+.services-collapsible-div > div:not(:last-child) {
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.services-collapsible-div > div > div {
+    padding: 1em;
+}
+
+.services-collapsible-div > div > div:first-child {
+
+}
+
+.services-collapsible-div > div > div > * {
+    margin: 0;
+}
+
+.services-collapsible-div.single > div > div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+/*.services-collapsible-div.single > div > div:first-child::before{
+    content: '';
+    margin-right: 1em;
+    border: solid #333;
+    border-width: 0 4px 4px 0;
+    padding: 4px;
+    transform: rotate(-45deg);
+    transition: transform 0.4s linear;
+}*/
+/*.services-collapsible-div > div.open > div:first-child::before {
+    transform: rotate(45deg);
+    transition: transform 0.4s linear;
+}*/
+
+.services-collapsible-div.single > div > div:first-child > *{
+    margin-top: 0.1em; /* Compansates text not optical centered */
+}
+
+.service-description{
+    color: black;
+    font-weight: 400;
+}
