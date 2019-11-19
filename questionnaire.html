@@ -6,27 +6,94 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Questionnaire</title>
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="quesionnaire.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slider-styling.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 
 <header id="myNav">
     <div class="container-full" id="navbar">
-        <img  id="logo" src="images/websitelogo.png" alt="">
+        <a href="index.html"><img id="logo" src="images/websitelogo.png" alt=""></a>
+        <div id="hamburger-icon">
+            <input type="checkbox" id="btnControl" onclick="menuSlidesIn()"/>
+            <label for="btnControl" id="label-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
         <ul id="nav-ul">
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Questionnaire</a></li>
-            <li><a href="#">Reviewers</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Get Started</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="questionnaire.html">Questionnaire</a></li>
+            <li><a href="reviewers.html">Reviewers</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="get-started.html">Get Started</a></li>
         </ul>
     </div>
+    <ul id="mobile-nav-ul">
+        <li><a href="services.html"><img src="images/menu%20svgs/services.png" alt="">Services</a></li>
+        <li><a href="questionnaire.html"><img src="images/menu%20svgs/questionnaire.png" alt="">Questionnaire</a></li>
+        <li><a href="reviewers.html"><img src="images/menu%20svgs/reviewers.png" alt="">Reviewers</a></li>
+        <li><a href="blog.html"><img src="images/menu%20svgs/blog.png" alt="">Blog</a></li>
+        <li><a href="get-started.html"><img src="images/menu%20svgs/get-started.png" alt="">Get Started</a></li>
+    </ul>
 </header>
 
 <section id="questionnaire" class="first-section">
-
+    <div class="container">
+        <p class="bold-2rem questionnaire-heading">Questionnaire</p>
+        <ol class="questionnaire-list medium-1rem">
+            <li><p class="medium-1rem">What careers and industry are you targeting? If possible, please provide a job
+                description that is your ideal target.</p></li>
+            <li><p class="medium-1rem">Are there any gaps in your resume where you were out of school or work?
+                (unemployed, out of school, fired, etc.) Please describe in detail. We won't judge, we just want as much
+                information as possible to make you look as good as possible.</p></li>
+            <li><p class="medium-1rem">If you don't list your GPA on your resume, why?</p></li>
+            <li><p class="medium-1rem">What is your Major GPA if not listed on the resume?</p></li>
+            <li><p class="medium-1rem">Do you have on campus recruiting at your school (if still in undergrad or
+                graduate school) for the positions you are targeting? If so, have the resume submissions for this
+                recruiting season passed? Have you landed any interviews yet? If so, which ones?</p></li>
+            <li><p class="medium-1rem">What is your age and gender?</p></li>
+            <li><p class="medium-1rem">What relevant courses have you taken? If it is a stretch, still include it here
+                and we will review.</p></li>
+            <li><p class="medium-1rem">What makes you unique? Any interesting or rare interests/hobbies?</p></li>
+            <li><p class="medium-1rem">Have you started or are you a member of any clubs / extra-curriculars? what was
+                your role specifically? Can you quantify any initiatives you led?</p></li>
+            <li><p class="medium-1rem">What are your greatest concerns on your resume? In other words, what do you see
+                as your greatest weaknesses?</p></li>
+            <li><p class="medium-1rem">What do you see as your greatest strengths?</p></li>
+            <li><p class="medium-1rem">For your experiences (work and education), please elaborate on the day to day
+                activities you were responsible for and any projects you were on. What did you do specifically and what
+                was the outcome in numbers?</p></li>
+            <li><p class="medium-1rem">In what city and country do you want to work? Are you flexible to work somewhere
+                else? Where? What is your citizenship?</p></li>
+            <li><p class="medium-1rem">Where in the world are you located?</p></li>
+            <li><p class="medium-1rem">Would you like to keep your current resume format or would you like us to change
+                it to WSO's recommended format (some schools require a specific format that is different from our
+                template)?</p></li>
+            <li><p class="medium-1rem">How did you first hear about WSO Resume Review? (word of mouth, on Wall Street
+                Oasis, Facebook Ad, etc.?)</p></li>
+        </ol>
+        <div class="questionnaire-note">
+            <p class="regular-1rem text-center send-email">If you'd like to share any further information with us, send
+                us an e-mail at:
+                <br>
+                <span class="bold-1rem">info@wallstreetshotcut.com</span>
+            </p>
+        </div>
+    </div>
 </section>
 
 <footer>
@@ -56,10 +123,13 @@
     </div>
     <div class="lower-footer">
         <div class="container">
-            <p><span class="bold-17">© 2019 Wall Street Shortcut. </span><span class="regular-17">All Rights Reserved</span></p>
+            <p><span class="bold-17">© 2019 Wall Street Shortcut. </span><span
+                    class="regular-17">All Rights Reserved</span></p>
 
         </div>
     </div>
 </footer>
+<script src="https://kit.fontawesome.com/d73f645a4a.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
