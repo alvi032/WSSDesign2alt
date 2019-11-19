@@ -11,9 +11,9 @@
     /*margin: auto;*/
 }
 
-.services-collapsible-div > div:not(:last-child) {
+/*.services-collapsible-div > div:not(:last-child) {
     border-bottom: 1px solid #f7f7f7;
-}
+}*/
 
 .services-collapsible-div > div > div {
     padding: 1em;
@@ -49,8 +49,28 @@
 .services-collapsible-div.single > div > div:first-child > *{
     margin-top: 0.1em; /* Compansates text not optical centered */
 }
-
-.service-description{
+.single>div.open .service-heading{
+    font-size: 1.5rem;
+    transition: 200ms;
+    font-weight: 600;
+}
+.single>div.open .service-description{
     color: black;
-    font-weight: 400;
+    font-weight: 500;
+}
+/*
+.single>div{
+    border-bottom: 1px solid var(--clr1);
+}*/
+.service-div{
+    position: relative;
+}
+.service-div:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    right: 25%;
+    border-bottom: 1px solid var(--clr1);
 }
