@@ -91,4 +91,7 @@
     #get-started-packages{
         width: 100%;
     }
+    .slick-dots {
+        bottom: -50px !important;
+    }
 }
