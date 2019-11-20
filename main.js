@@ -56,6 +56,5 @@ $(function () {
             $tab.siblings().removeClass("open");
             $tab.siblings().children(":last-child").slideUp("slow");
         }
-
     });
 });
