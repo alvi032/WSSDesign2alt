@@ -43,3 +43,9 @@
     margin: 1rem;
     color: var(--clr1)
 }
+
+@media (max-width: 500px){
+    .blog-card{
+        flex-direction: column;
+    }
+}
