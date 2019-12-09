@@ -5,14 +5,19 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Reviewers</title>
+    <title>Get Hired</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="reviewers.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slider-styling.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="about-us.css">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="get-hired.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
@@ -48,62 +53,46 @@
 </header>
 <section class="first-section">
     <div class="container">
-        <p class="reviewers-heading bold-2rem">Resume Review Experts</p>
-        <ul id="reviewer-list">
-            <li class="reviewer">
-                <p class="regular-2rem reviewer-name">Alpha*</p>
-                <p class="regular-1rem reviewer-description">
-                    Co-Founder, Wall Street Shortcut.
-                    <br>
-                    <br>
-                    Previously Healthcare Investment Banking Associate at J.P. Morgan
-                    Chase. Also completed one-year within leveraged finance in the
-                    natural resources group.
-                    <br>
-                    <br>
-                    Graduated in 2015 from a non-target school in New York.
-                </p>
-            </li>
-            <li class="reviewer">
-                <p class="regular-2rem reviewer-name">Gamma*</p>
-                <p class="regular-1rem reviewer-description">
-                    Co-Founder, Wall Street Shortcut.
-                    <br>
-                    <br>
-                    Previously analyst long/short tiger cub hedge-fund and M&A
-                    generalist at Perella Weinberg Partners.
-                    <br>
-                    <br>
-                    Graduated in 2013 from the University of Pennsylvania.
-                </p>
-            </li>
-            <li class="reviewer">
-                <p class="regular-2rem reviewer-name">Beta*</p>
-                <p class="regular-1rem reviewer-description">
-                    Private Equity Senior Associate at Blackstone.
-                    <br>
-                    Previously Investment Banking Analyst at boutique M&A-focused Investment Bank.
-                </p>
-            </li>
-            <li class="reviewer">
-                <p class="regular-2rem reviewer-name">Omega*</p>
-                <p class="regular-1rem reviewer-description">
-                    Analyst distressed debt and special situations trading at Barclays
-                    <br>
-                    Investment Bank. Previously equity research analyst at Barclays.
-                </p>
-            </li>
-        </ul>
-        <div class="reviewers-note">
-            <p class="regular-1rem text-center send-email">Interested in becoming a paid resume reviewer for Wall Street Shortcut?
-                Send us your resume and a brief intro to
-                <br>
-                <span class="bold-1rem">info@wallstreetshotcut.com</span>
-            </p>
-            <p class="regular-075rem text-center">*Resume Reviwers names masked for confidentiality and compliance related purposes</p>
-        </div>
+        <p class="page-heading">Get Hired</p>
+        <p class="center blue pb-60">We’d be nothing without our team of professionals. We pay our team members on a
+            job-by-job basis at highly competitive rates. Interested in joining our team of resume review professionals?
+            Please fill out the below form highlighting your background and experience. A linkedin profile is a must!
+        </p>
+        <form action="" id="get-hired-contact-form">
+            <div class="hired-inputs">
+                <div class="input-div input-field">
+                    <label for="hired-name">Name:</label>
+                    <input type="text" id="hired-name" placeholder="e.g. John Doe">
+                </div>
+                <div class="input-div input-field">
+                    <label for="hired-email">Email ID:</label>
+                    <input type="text" id="hired-email" placeholder="e.g. email@random.com">
+                </div>
+
+
+                <div class="input-div input-field">
+                    <label for="hired-name">Phone Number</label>
+                    <input type="text" id="hired-number" placeholder="e.g. 132456798">
+                </div>
+                <div class="input-div input-field">
+                    <label for="hired-email">LinkedIn Profile:</label>
+                    <input type="text" id="hired-profile" placeholder="e.g. https://www.linkedin.com/in/765">
+                </div>
+            </div>
+            <div class="input-div hired-message-div">
+                <label for="hired-message">Message:</label>
+                <textarea name="" id="hired-message" cols="30" rows="10" placeholder="Your message goes here..."></textarea>
+            </div>
+            <p class="semi-bold-1rem blue">Upload Attachments:</p>
+            <div id="upload-form-buttons">
+                <button type="submit" id="hired-contact-upload">Add Files</button>
+                <button type="submit" id="hired-contact-submit">Send</button>
+            </div>
+
+        </form>
     </div>
 </section>
+
 <footer>
     <div class="upper-footer">
         <div class="container-full">
@@ -138,5 +127,33 @@
 </footer>
 <script src="https://kit.fontawesome.com/d73f645a4a.js"></script>
 <script src="main.js"></script>
+<script src="slick.js"></script>
+<script>
+    $(".slick-slider-view").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+                infinite: true
+            }
+        }, {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+                infinite: true
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                infinite: true
+            }
+        }]
+    });
+</script>
 </body>
 </html>

@@ -5,18 +5,18 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Get Started</title>
+    <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap"
           rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="get-started.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="slick.css">
     <link rel="stylesheet" href="slider-styling.css">
     <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="about-us.css">
+    <link rel="stylesheet" href="styling.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
@@ -50,75 +50,50 @@
         <li><a href="get-started.html"><img src="images/menu%20svgs/get-started.png" alt="">Get Started</a></li>
     </ul>
 </header>
-
 <section class="first-section">
-    <div id="get-started-intro" class="container">
-        <div id="get-started-intro-desc">
-            <p class="bold-2rem">Select your package</p>
-            <p class="regular-1rem">
-                Pick from the services & packages which best align with your recruiting
-                needs and goals. Once you’ve selected the package and check-out, you will be
-                brought to our questionnaire form which aims to help give us a better
-                understanding of who you are and how we can best assist. From there, one of our
-                team members will contact you via the email listed on your check-out process.
-            </p>
-        </div>
-        <div id="get-started-packages">
-            <div class="slick-slider-view-packages">
-                <div class="package-card">
-                    <p class="regular-1.5rem package-name">Investment Banking
-                        Recruiting Package</p>
-                    <p class="regular-1rem package-desc">
-                        <span class="bold-2rem">$249</span>
-                        <br>
-                        <br>
-                        For university students looking to break into the industry or Junior professionals looking to
-                        lateral into front-office positions.
-                    </p>
-                    <hr class="package-hr">
-                    <ul class="package-features">
-                        <li><p>Lorem ipsum dolor</p></li>
-                        <li><p>Lorem ipsum dolor imet</p></li>
-                        <li><p>Consectetur adipisicing</p></li>
-                    </ul>
-
-                    <hr class="package-hr">
-
-
-                    <a href="#" class="medium-1rem">Buy</a>
+    <div class="container">
+        <p class="page-heading">About Us</p>
+        <p class="center blue pb-60">Wall Street Shortcut was founded by a team of current and previous elite Investment Banking professionals
+            with a common goal of helping professionals navigate their way through the traditional Investment Bank and
+            Buy-Side recruiting processes. The KEY to recruiting in the financial industry is YOUR resume. Your resume
+            is everything. It’s your story, identity, a brag sheet, an elevator pitch, and more. Investment Banking
+            recruiters and seniors have been trained to screen resumes for certain items. They spend on average 30
+            seconds looking at a first when first received, so every little detail relating to wording and structure
+            counts. Through our team of professionals and structured review process, we’re confident that we know
+            exactly how to craft a resume to make it past the application processes and initial screens.
+            <br><br>
+            Our team of professionals have successfully navigated their ways into Investment Banking from both the
+            traditional college graduate path as well as non-finance routes. A majority of our team members have then
+            successfully transitioned to buy-side roles at some of the most reputable mega funds in the private equity
+            and hedge-fund space. The first step at getting the initial interviews? A well-crafted and structured
+            resume.
+            <br><br>
+            Through our one-on-one review process, we use our years of experience and knowledge to help our customers
+            craft a perfect resume tailored towards their recruiting needs. Satisfaction and success rates are our top
+            priorities; if you are unhappy with the service or don’t find yourself getting interviews, contact us and we
+            will be glad to assist.
+            <br><br>
+            Please feel free to contact us via the below form and we’ll get back to you within 10 hours.
+        </p>
+        <form action="" id="about-contact-form">
+            <div class="about-inputs">
+                <div class="input-div input-field">
+                    <label for="about-name">Name:</label>
+                    <input type="text" id="about-name" placeholder="e.g. John Doe">
                 </div>
-                <div class="package-card">
-                    <p class="regular-1.5rem package-name">Buy-Side
-                        Recruiting Package</p>
-                    <p class="regular-1rem package-desc">
-                        <span class="bold-2rem">$349</span>
-                        <br>
-                        <br>
-                        For current financial professionals looking to break into the Hedge-Fund, Private Equity, and
-                        Venture Capital space
-                    </p>
-                    <hr class="package-hr">
-                    <ul class="package-features">
-                        <li><p>Lorem ipsum dolor</p></li>
-                        <li><p>Lorem ipsum dolor imet</p></li>
-                        <li><p>Consectetur adipisicing</p></li>
-                    </ul>
-
-                    <hr class="package-hr">
-
-                    <a href="#" class="medium-1rem">Buy</a>
+                <div class="input-div input-field">
+                    <label for="about-email">Email ID:</label>
+                    <input type="text" id="about-email" placeholder="e.g. email@random.com">
                 </div>
             </div>
-        </div>
+            <div class="input-div about-message-div">
+                <label for="about-message">Message:</label>
+                <textarea name="" id="about-message" cols="30" rows="10" placeholder="Your message goes here..."></textarea>
+            </div>
+
+            <button type="submit" id="about-contact-submit">Send</button>
+        </form>
     </div>
-<!--    <div class="get-started-bg-design">
-        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 852.694 1061.677" id="blue-triangle-svg">
-            <path id="Path_8" data-name="Path 8" d="M1069,622.5l852.694-502.394V1181.782Z" transform="translate(-1069 -120.106)" fill="#2cc0d3"/>
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="579.795" height="721.894" viewBox="0 0 579.795 721.894" id="white-triangle-svg">
-            <path id="Path_9" data-name="Path 9" d="M1069,461.712l579.8-341.606V842Z" transform="translate(-1069 -120.106)" fill="#fff"/>
-        </svg>
-    </div>-->
 </section>
 
 <footer>
@@ -157,12 +132,24 @@
 <script src="main.js"></script>
 <script src="slick.js"></script>
 <script>
-    $(".slick-slider-view-packages").slick({
+    $(".slick-slider-view").slick({
         dots: true,
         infinite: true,
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+                infinite: true
+            }
+        }, {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+                infinite: true
+            }
+        }, {
             breakpoint: 768,
             settings: {
                 slidesToShow: 1,

@@ -2,7 +2,7 @@
     background-color: var(--clr1);
     padding: 50px 0;
 }
-.upper-footer .container{
+.upper-footer .container-full{
     color: white;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@
     .upper-footer{
         padding: 50px 0 20px;
     }
-    .upper-footer .container{
+    .upper-footer .container-full{
         flex-direction: column;
     }
     .icon-and-address{

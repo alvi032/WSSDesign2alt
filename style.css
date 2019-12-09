@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
 body{
     padding: 0;
     margin: 0;
@@ -102,7 +109,12 @@ body{
     text-decoration: none;
     color: var(--clr1);
 }
-
+#how-it-works:before{
+    display: block;
+    content: "";
+    height: 50px;
+    /*margin-top: -100px*/
+}
 #how-it-works{
     background-color: #f3f3f3;
     padding: 40px 0 80px;

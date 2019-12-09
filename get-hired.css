@@ -1,0 +1,96 @@
+#get-hired-contact-form{
+    margin: auto;
+    max-width: 650px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+#get-hired-contact-form label{
+    color: var(--clr1);
+    font-weight: 600;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+.hired-inputs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+}
+.input-field{
+    width: 100%;
+}
+.hired-message-div{
+    padding-top: 10px;
+}
+#get-hired-contact-form input, #get-hired-contact-form textarea{
+    border: 1px solid var(--clr1);
+    border-radius: 15px;
+    padding: 1rem;
+    outline: none;
+    color: var(--clr1);
+    width: 100%;
+}
+#get-hired-contact-form input::placeholder, #get-hired-contact-form textarea::placeholder{
+    color: var(--clr1);
+    opacity: 70%;
+}
+#hired-contact-upload{
+    border: 2px solid var(--clr1);
+    border-radius: 15px;
+    font-size: 1.125rem;
+    padding: 0.5rem 2rem;
+    background-color: var(--clr1);
+    color: white;
+    outline: none;
+    webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    transition: 300ms;
+    margin-right: 40px;
+}
+#hired-contact-upload:hover{
+    background-color: white;
+    color: var(--clr1)
+}
+#hired-contact-submit{
+    border: 2px solid var(--clr2);
+    border-radius: 15px;
+    font-size: 1.125rem;
+    padding: 0.5rem 2rem;
+    background-color: var(--clr2);
+    color: white;
+    outline: none;
+    webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    transition: 300ms;
+}
+#hired-contact-submit:hover{
+    background-color: white;
+    color: var(--clr2)
+}
+#upload-form-buttons{
+    justify-content: start !important;
+}
+@media (max-width: 767px){
+    .hired-inputs{
+        grid-template-columns: 1fr;
+    }
+    .input-field {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    #upload-form-buttons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+    }
+    #upload-form-buttons>button{
+        width: 100%;
+    }
+}
