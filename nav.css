@@ -79,7 +79,7 @@ header #navbar{
 #mobile-nav-ul{
     display: none;
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 0;
     list-style: none;
     background-color: var(--clr1);
     position: absolute;
@@ -94,6 +94,9 @@ header #navbar{
 #mobile-nav-ul li{
     display: flex;
 }
+#mobile-nav-ul li:hover{
+    background-color: #002e73;
+}
 #mobile-nav-ul a{
     color: white;
     text-decoration: none;
@@ -101,10 +104,9 @@ header #navbar{
     padding: 1rem 0;
     display: flex;
 }
-
 #mobile-nav-ul img{
     height: 1rem;
-    padding-right: 1rem;
+    padding: 0 1rem;
 }
 #mobile-nav-ul.open-nav{
     bottom: unset;
