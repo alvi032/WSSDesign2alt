@@ -1,10 +1,7 @@
-.services-bg{
-
-}
 #services-intro{
     /*background-color: #f3f3f3;*/
     height: 600px;
-    background-image: url("images/background/services-bg.jpg");
+    background-image: url("images/background/services-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
@@ -92,4 +89,10 @@
 
 .fa-angle-right{
     padding: 1rem;
+}
+@media (max-width: 768px){
+    #services-intro{
+        background-image: url("images/background/service-bg-mob.png");
+        background-position: center center;
+    }
 }
