@@ -27,6 +27,9 @@ body{
     padding-top: 140px;
     z-index: 1;
 }
+.page-intro{
+    max-width: 900px;
+}
 #home-intro{
     text-align: center;
     padding-bottom: 8px;
