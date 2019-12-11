@@ -70,6 +70,7 @@
     }
     #reviewers{
         background: none;
+        transition: 350ms;
     }
     #reviewers:after{
         content: "";
