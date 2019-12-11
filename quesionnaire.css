@@ -45,3 +45,24 @@
 .questionnaire-note p{
     padding: 20px;
 }
+@media (max-width: 500px){
+    #questionnaire{
+        background: none;
+        transition: 350ms;
+    }
+    #questionnaire:after{
+        content: "";
+        background-image: url("images/background/homepage-bg.jpg");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        opacity: 0.25;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        z-index: -1;
+        transition: 350ms;
+    }
+}
