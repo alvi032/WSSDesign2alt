@@ -1,9 +1,24 @@
 #questionnaire{
-    content: "";
+
+}
+#questionnaire:after{
+/*    content: "";
     background-image: url("images/background/homepage-bg-lowOpacity.png");
     background-size: cover;
     background-position: top center;
+    background-repeat: no-repeat;*/
+    content: "";
+    background-image: url("images/background/homepage-bg.jpg");
+    background-size: cover;
+    background-position: top center;
     background-repeat: no-repeat;
+    opacity: 0.15;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
 }
 .questionnaire-heading{
     text-align: center;

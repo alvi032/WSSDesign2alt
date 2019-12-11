@@ -225,6 +225,17 @@
 </footer>
 <script src="https://kit.fontawesome.com/d73f645a4a.js"></script>
 <script src="main.js"></script>
+<script>
+    // resizing intro video to 16:9
+    window.onload = function videoResize(){
+        let introVidHeight = document.getElementById("intro-video-div").offsetWidth*(9/16)
+        document.getElementById("intro-video-div").style.height = introVidHeight + 'px'
+    }
+    window.onresize = function videoResize(){
+        let introVidHeight = document.getElementById("intro-video-div").offsetWidth*(9/16)
+        document.getElementById("intro-video-div").style.height = introVidHeight + 'px'
+    }
+</script>
 <script src="slick.js"></script>
 <script>
     $(".slick-slider-view").slick({

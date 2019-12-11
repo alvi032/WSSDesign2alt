@@ -26,15 +26,7 @@ $(document).ready(function(){
 });
 
 
-// resizing intro video to 16:9
-window.onload = function videoResize(){
-    var introVidHeight = document.getElementById("intro-video-div").offsetWidth*(9/16)
-    document.getElementById("intro-video-div").style.height = introVidHeight + 'px'
-}
-window.onresize = function videoResize(){
-    var introVidHeight = document.getElementById("intro-video-div").offsetWidth*(9/16)
-    document.getElementById("intro-video-div").style.height = introVidHeight + 'px'
-}
+
 
 //services dropdown div
 $(function () {
@@ -58,3 +50,4 @@ $(function () {
         }
     });
 });
+
