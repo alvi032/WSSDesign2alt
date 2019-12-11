@@ -1,13 +1,14 @@
 #questionnaire{
-
-}
-#questionnaire:after{
-/*    content: "";
     background-image: url("images/background/homepage-bg-lowOpacity.png");
     background-size: cover;
     background-position: top center;
-    background-repeat: no-repeat;*/
-    content: "";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#questionnaire:after{
+/*    content: "";
+
+/*    content: "";
     background-image: url("images/background/homepage-bg.jpg");
     background-size: cover;
     background-position: top center;
@@ -18,7 +19,7 @@
     bottom: 0;
     right: 0;
     position: fixed;
-    z-index: -1;
+    z-index: -1;*/
 }
 .questionnaire-heading{
     text-align: center;

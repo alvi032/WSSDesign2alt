@@ -25,9 +25,6 @@ $(document).ready(function(){
     });
 });
 
-
-
-
 //services dropdown div
 $(function () {
 
