@@ -1,5 +1,5 @@
 #questionnaire{
-    background-image: url("images/background/homepage-bg-lowOpacity.png");
+    background-image: url("../images/background/homepage-bg-lowOpacity.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@
     }
     #questionnaire:after{
         content: "";
-        background-image: url("images/background/homepage-bg.jpg");
+        background-image: url("../images/background/homepage-bg.jpg");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
