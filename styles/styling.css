@@ -34,3 +34,15 @@
 .m-auto{
     margin: auto;
 }
+.mobile-only{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .desktop-only{
+        display: none;
+    }
+    .mobile-only{
+        display: unset;
+    }
+}
