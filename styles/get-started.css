@@ -1,3 +1,6 @@
+.get-started-bg img {
+    width: 100%;
+}
 #get-started-intro{
     display: flex;
     flex-direction: column;

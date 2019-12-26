@@ -1,9 +1,9 @@
 #questionnaire{
-    background-image: url("../images/background/homepage-bg-lowOpacity.png");
+    background-image: url("../images/banners/test-bg.jpg");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 #questionnaire:after{
 /*    content: "";
@@ -52,7 +52,7 @@
     }
     #questionnaire:after{
         content: "";
-        background-image: url("../images/background/homepage-bg.jpg");
+        background-image: url("../images/banners/test-bg.jpg");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
