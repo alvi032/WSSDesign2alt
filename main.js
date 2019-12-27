@@ -1,5 +1,5 @@
 // changing background color of navbar on scroll
-var myNav = document.getElementById("myNav")
+/*var myNav = document.getElementById("myNav")
 var logo = document.getElementById("logo")
 
 window.onscroll = function () {
@@ -13,7 +13,7 @@ window.onscroll = function () {
         myNav.classList.add("nav-transparent");
         myNav.classList.remove("nav-colored");
     }
-}
+}*/
 
 // hamburger-icon
 $(document).ready(function(){

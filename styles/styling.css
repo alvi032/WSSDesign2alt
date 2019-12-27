@@ -37,6 +37,9 @@
 .mobile-only{
     display: none;
 }
+.banner{
+    margin-top: 73.64px;
+}
 
 @media (max-width: 767px){
     .desktop-only{
@@ -44,5 +47,8 @@
     }
     .mobile-only{
         display: unset;
+    }
+    .banner{
+        margin-top: unset;
     }
 }
