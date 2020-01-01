@@ -1,13 +1,19 @@
 .services-bg img {
     width: 100%;
 }
-
+#services-questions{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#services-questions img{
+    place-self: flex-start center;
+    max-width: 100%;
+}
 .services-collapsible-div {
     margin: 2em auto;
     color: #0976a7;
     max-width: 800px;
     width: 95%;
-
 }
 
 .services-collapsible-div > div > div {
@@ -64,5 +70,8 @@
 @media (max-width: 768px) {
     .services-bg {
         padding-top: 74px;
+    }
+    #services-questions{
+        display: unset;
     }
 }

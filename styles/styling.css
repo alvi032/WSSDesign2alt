@@ -40,6 +40,9 @@
 .banner{
     margin-top: 73.64px;
 }
+.d-flex{
+    display: flex;
+}
 
 @media (max-width: 767px){
     .desktop-only{
