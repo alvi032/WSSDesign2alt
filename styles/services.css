@@ -72,6 +72,8 @@
         padding-top: 74px;
     }
     #services-questions{
-        display: unset;
+        display: flex;
+        flex-direction: column-reverse;
     }
+
 }
