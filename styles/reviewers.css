@@ -6,7 +6,8 @@
     /*background-attachment: fixed;*/
 }
 .reviewers-note, .reviewer-description{
-    color: var(--clr1)
+    color: var(--clr1);
+    max-width: 750px;
 }
 .reviewers-heading{
     color: var(--clr1);
@@ -63,7 +64,8 @@
 }
 .reviewers-note{
     padding: 60px 0 40px;
-    color: var(--clr1)
+    color: var(--clr1);
+    margin: auto;
 }
 .reviewers-note p{
     padding: 20px;
