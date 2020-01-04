@@ -1,5 +1,5 @@
 #reviewers{
-    background-image: url("../images/banners/reviewers.jpg");
+    background-image: url("../images/banners/review-background.jpg");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@
     }
     #reviewers:after{
         content: "";
-        background-image: url("../images/banners/reviewers.jpg");
+        background-image: url("../images/banners/review-background.jpg");
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
