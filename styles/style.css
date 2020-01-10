@@ -28,6 +28,9 @@ body{
     padding-top: 140px;
     z-index: 1;
 }
+.first-section.banner{
+    padding-top: 67px;
+}
 .page-intro{
     max-width: 900px;
 }
